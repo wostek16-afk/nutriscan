@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id="c" width="512" height="512"></canvas>
+<script>
+const c = document.getElementById('c');
+const ctx = c.getContext('2d');
+// Background
+ctx.fillStyle = '#07080d';
+ctx.roundRect(0,0,512,512,80);
+ctx.fill();
+// Green circle
+ctx.beginPath();
+ctx.arc(256,220,130,0,Math.PI*2);
+ctx.fillStyle = '#3b82f6';
+ctx.fill();
+// Text
+ctx.fillStyle = 'white';
+ctx.font = 'bold 80px sans-serif';
+ctx.textAlign = 'center';
+ctx.fillText('🥗', 256, 260);
+</script>
+</body>
+</html>
