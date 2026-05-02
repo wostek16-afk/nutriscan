@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/nutriscan/static/js/main.2339bf24.js",
+    "index.html": "/nutriscan/index.html",
+    "main.2339bf24.js.map": "/nutriscan/static/js/main.2339bf24.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2339bf24.js"
+  ]
+}
